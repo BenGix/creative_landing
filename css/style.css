@@ -2,7 +2,8 @@
   --primary-bg: #111111;
   --natural-txt: #f8f9fa;
   --nactive-txt: #e2e2e2;
-  --active-txt: #daff6a;
+  --active-txt: #ffa647;
+  --bs-primary: #ffa647;
 }
 
 @font-face {
@@ -311,7 +312,7 @@ h6,
   height: 100%;
   top: 0;
   left: 0;
-  background: rgba(174, 212, 98, 0.53);
+  background: rgba(212, 161, 98, 0.53);
   border-radius: 8px;
   transition: 0.5s;
   opacity: 0;

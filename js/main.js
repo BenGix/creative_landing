@@ -12,8 +12,13 @@
   spinner(0);
 
   // Initiate the wowjs
-  new WOW().init();
-
+  var wow = new WOW({
+    boxClass: "wow", // default
+    animateClass: "animated", // default
+    offset: 0, // default
+    mobile: false, // disable animations on mobile
+  });
+  wow.init();
   // Back to top button
   $(window).scroll(function () {
     if ($(this).scrollTop() > 300) {
