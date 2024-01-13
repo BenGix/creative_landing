@@ -113,7 +113,7 @@ body {
   font-family: "iranyekanweb", sans-serif;
 }
 
-.fj-green{
+.fj-green {
   color: var(--active-txt);
 }
 /*** Spinner Start ***/
@@ -293,17 +293,18 @@ h6,
 /*** Navbar End ***/
 
 /*** Events Start ***/
-#Product_gallary p ,#Product_gallary h1,#Product_gallary span {
+#Product_gallary p,
+#Product_gallary h1,
+#Product_gallary span {
   text-align: center;
 }
-
 
 #Product_gallary .tab-class .nav-item a.active {
   background: var(--bs-primary) !important;
 }
 
 #Product_gallary .tab-class .nav-item a {
-  text-decoration: none; 
+  text-decoration: none;
 }
 
 #Product_gallary .event-img .event-overlay {
@@ -360,11 +361,10 @@ h6,
   transition: 1s;
 }
 
-.service-content h4, .service-content p {
- text-align: center;
+.service-content h4,
+.service-content p {
+  text-align: center;
 }
-
-
 
 .service-item:hover .service-content-icon a.btn-primary {
   background: var(--primary-bg);
@@ -373,6 +373,7 @@ h6,
 
 .service-item .service-content-icon a.btn-primary {
   transition: 1s !important;
+  border: solid 0.5px var(--primary-bg);
 }
 /*** Services End ***/
 
@@ -584,8 +585,8 @@ h6,
 
 /*** testimonial Start ***/
 
-.testimonial-content{
-color: var(--nactive-txt);
+.testimonial-content {
+  color: var(--nactive-txt);
 }
 
 .testimonial-item {
@@ -616,13 +617,12 @@ color: var(--nactive-txt);
 }
 /*** Footer End ***/
 
-.btn-primary{
+.btn-primary {
   color: var(--primary-bg);
   background-color: var(--active-txt);
 }
 
-
-.bg-highlight{
+.bg-highlight {
   color: var(--primary-bg);
   background-color: var(--active-txt);
 }
@@ -631,16 +631,16 @@ color: var(--nactive-txt);
   color: var(--primary-bg);
 }
 
-.faqt-item{
+.faqt-item {
   height: 230px;
 }
 
-.faqt-item h1, .faqt-item p {
+.faqt-item h1,
+.faqt-item p {
   text-align: center;
 }
 
-.btn.btn-primary:hover{
+.btn.btn-primary:hover {
   color: var(--active-txt) !important;
   background-color: var(--primary-bg) !important;
 }
-
